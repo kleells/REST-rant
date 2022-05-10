@@ -1,3 +1,7 @@
+# Project REST-rant
+
+REST-rant is an app where users can review restaurants.
+
 TECHNOLOGIES USED:
     CSS Framework: Bootstrap
     Stack: MongoDB, Express, Node.js
