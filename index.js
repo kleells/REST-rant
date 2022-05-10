@@ -5,6 +5,12 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
+// only homepage and wildcard routes here, the rest need to be in the controllers folder
+// imports contorllers routes here
+
+app.use('/places', require('./controllers/places'))
+
+//HOMEPAGE
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
