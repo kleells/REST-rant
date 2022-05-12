@@ -2,9 +2,9 @@ node_modules
 .env
 .DS_Store
 
-//follow these steps if you accidentally pushed node_modules or .env up to GitHub.
+# follow these steps if you accidentally pushed node_modules or .env up to GitHub.
 
-1. Ensure that your .gitignore file exists and contains node_modules and .env on separate lines as described above.
-2. Run the command: git rm .env in your terminal.
-3. Run the command: git rm -r node_modules in your terminal.
-4. add, commit, and push to GitHub.
+# 1. Ensure that your .gitignore file exists and contains node_modules and .env on separate lines as described above.
+# 2. Run the command: git rm .env in your terminal.
+# 3. Run the command: git rm -r node_modules in your terminal.
+# 4. add, commit, and push to GitHub.
