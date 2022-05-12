@@ -9,7 +9,7 @@ TECHNOLOGIES USED:
 
 STEPS:
 - [x] Part 1: Project setup, stub three routes, and creating a README file.
-- [ ] Part 2: Stub remaining GET and POST routes, planning mock restaurant data, drawing wireframes, and making your first view.
+- [x] Part 2: Stub remaining GET and POST routes, planning mock restaurant data, drawing wireframes, and making your first view.
 - [ ] Part 3: Making more views, creating a layout page, and expanding your README.
 - [ ] Part 4: Adding some style with CSS.
 - [ ] Part 5: Forms, validation, and navigation.
@@ -23,7 +23,7 @@ STEPS:
 
 Method  /  Path  /  Purpose
 
-- [ ] GET
+- [x] GET
     - /
     - Home page
 - [ ] GET
@@ -53,6 +53,6 @@ Method  /  Path  /  Purpose
 - [ ] DELETE
     - /places/:id/rant/:rantId
     - Delete a rant (comment) about a particular place
-- [ ] GET
-    - *
+- [x] GET
+    - * (asterisk symbol)
     - 404 page (matches any route not defined above)
