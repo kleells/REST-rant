@@ -5,14 +5,17 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
+app.set('view engine', 'jsx');
+app.engine('jsx', require('express-react-views').createEngine())
+
 // only homepage and wildcard routes here, the rest need to be in the controllers folder
-// imports contorllers routes here
+// imports contorollers routes here
 
 app.use('/places', require('./controllers/places'))
 
 //HOMEPAGE
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.render('Home');
 });
 
 //WILDCARD Route(keep at the bottom to avoid override) with call of .status(404)
