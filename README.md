@@ -13,7 +13,8 @@ STEPS:
 - [x] Part 3: Making more views, creating a layout page, and expanding your README.
 - [x] Part 4: Adding some style with CSS.
     - [ ] Part 4 Bonus code
-- [ ] Part 5: Forms, validation, and navigation.
+- [x] Part 5: Forms, validation, and navigation.
+    -  [ ] Part 5 Bonus code
 - [ ] Part 6: Implementing delete functionality and adding a DELETE route.
 - [ ] Part 7: Implementing edit form and functionality, adding a PUT route.
 - [ ] Part 8: Implementing the Mongoose ODM.
@@ -30,10 +31,10 @@ Method  /  Path  /  Purpose
 - [x] GET
     - /places
     - Places index page
-- [ ] POST
+- [x] POST
     - /places
     - Create new place
-- [ ] GET
+- [x] GET
     - /places/new
     - Form page for creating a new place
 - [ ] GET
