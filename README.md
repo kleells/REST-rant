@@ -11,7 +11,8 @@ STEPS:
 - [x] Part 1: Project setup, stub three routes, and creating a README file.
 - [x] Part 2: Stub remaining GET and POST routes, planning mock restaurant data, drawing wireframes, and making your first view.
 - [x] Part 3: Making more views, creating a layout page, and expanding your README.
-- [ ] Part 4: Adding some style with CSS.
+- [x] Part 4: Adding some style with CSS.
+    - [ ] Part 4 Bonus code
 - [ ] Part 5: Forms, validation, and navigation.
 - [ ] Part 6: Implementing delete functionality and adding a DELETE route.
 - [ ] Part 7: Implementing edit form and functionality, adding a PUT route.
