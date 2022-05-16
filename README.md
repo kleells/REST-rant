@@ -37,7 +37,7 @@ Method  /  Path  /  Purpose
 - [x] GET
     - /places/new
     - Form page for creating a new place
-- [ ] GET
+- [x] GET
     - /places/:id
     - Details about a particular place
 - [ ] PUT
