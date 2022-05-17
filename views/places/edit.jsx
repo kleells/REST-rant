@@ -8,7 +8,7 @@ function edit_form (data) {
                 <h1>Add a New Place</h1>
                 <form method="POST" action={`/places/${data.place.id}?_method=PUT`}>
                     <div className="row">
-                        <div className="form-group">
+                        <div className="form-group col-sm-6">
                             <label htmlFor="name">Place Name</label>
                             <input className="form-control" 
                                 id="name" 
@@ -16,18 +16,24 @@ function edit_form (data) {
                                 value={data.place.name}
                                 required />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group col-sm-6">
                             <label htmlFor="pic">Place Picture</label>
                             <input className="form-control" type="url" id="pic" name="pic" />
                         </div>
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="city">City</label>
-                        <input className="form-control" id="city" name="city" />
+                    <div className="row">
+                        <div className="form-group col-sm-4">
+                            <label htmlFor="city">City</label>
+                            <input className="form-control" id="city" name="city" />
+                        </div>
+                        <div className="form-group col-sm-4">
+                            <label htmlFor="state">State</label>
+                            <input className="form-control" id="state" name="state" />
+                        </div>
+                        <div className="form-group col-sm-4">
+                        <label htmlFor="founded">Established</label>
+                        <input className="form-control" id="founded" name="founded" />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="state">State</label>
-                        <input className="form-control" id="state" name="state" />
                     </div>
                     <div className="form-group">
                         <label htmlFor="cuisines">Cuisines</label>
