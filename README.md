@@ -15,7 +15,8 @@ STEPS:
     - [ ] Part 4 Bonus code
 - [x] Part 5: Forms, validation, and navigation.
     -  [ ] Part 5 Bonus code
-- [ ] Part 6: Implementing delete functionality and adding a DELETE route.
+- [x] Part 6: Implementing delete functionality and adding a DELETE route.
+    -  ] Part 6 Bonus code
 - [ ] Part 7: Implementing edit form and functionality, adding a PUT route.
 - [ ] Part 8: Implementing the Mongoose ODM.
 - [ ] Part 9: Seed data, validations, and helper methods.
@@ -46,7 +47,7 @@ Method  /  Path  /  Purpose
 - [ ] GET
     - /places/:id/edit
     - Form page for editing an existing place
-- [ ] DELETE
+- [x] DELETE
     - /places/:id
     - Delete a particular place
 - [ ] POST
