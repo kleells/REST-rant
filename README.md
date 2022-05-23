@@ -18,8 +18,8 @@ STEPS:
 - [x] Part 6: Implementing delete functionality and adding a DELETE route.
     -  ] Part 6 Bonus code
 - [X] Part 7: Implementing edit form and functionality, adding a PUT route.
-- [ ] Part 8: Implementing the Mongoose ODM.
-- [ ] Part 9: Seed data, validations, and helper methods.
+- [x] Part 8: Implementing the Mongoose ODM.
+- [x] Part 9: Seed data, validations, and helper methods.
 - [ ] Part 10: Adding commentary: rants and raves.
 - [ ] Part 11: Populating data for star ratings.
 - [ ] Part 12: Deploying your project# project-REST-rant.
@@ -50,10 +50,10 @@ Method  /  Path  /  Purpose
 - [x] DELETE
     - /places/:id
     - Delete a particular place
-- [ ] POST
+- [x] POST
     - /places/:id/rant
     - Create a rant (comment) about a particular place
-- [ ] DELETE
+- [x] DELETE
     - /places/:id/rant/:rantId
     - Delete a rant (comment) about a particular place
 - [x] GET
