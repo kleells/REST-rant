@@ -36,19 +36,18 @@ function new_form (data) {
                             <input className="form-control" id="state" name="state" />
                         </div>
                         <div className="form-group col-sm-4">
-                            <label for="founded">Founded Year</label>
-                            <input type="number"
-                                   className="form-control" 
+                            <label htmlFor="founded">Founded Year</label>
+                            <input className="form-control" 
                                    id="founded" 
                                    name="founded"
-                                   value={new Date().getFullYear()} />
+                                   defaultValue={new Date().getFullYear()} />
                         </div>
                     </div>
                     <div className="form-group col-sm-12">
                         <label htmlFor="cuisines">Cuisines</label>
                         <input className="form-control" id="cuisines" name="cuisines" required />
                     </div>
-                    <input className="btn btn-primary" type="submit" value="Add Place" />
+                    <input className="btn btn-primary" type="submit" value="Update Place" />
                 </form>
             </main>
         </Def>
