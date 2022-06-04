@@ -1,10 +1,10 @@
 h1 {
     text-align: center;
-    color: rgb(19, 61, 139);
+    color: #2F4858;
   }
   
   nav {
-    background-color: cornflowerblue;
+    background-color: #C80000;
     padding: 10px;
 }
 
@@ -24,12 +24,12 @@ nav a {
 }
 
 nav a:hover {
-    color: pink;
+    color: #487E91;
     text-decoration: none;
 }
 
 body {
-  background-color: lightblue;
+  background-color: #56423D;
   text-align: center;
 }
 
@@ -37,4 +37,12 @@ main {
   margin-right: 20px;
   margin-left: 20px;
   background-color: white;
+}
+
+.businessName {
+  color: #56423D;;
+}
+
+.intro {
+  color: #487E91;
 }

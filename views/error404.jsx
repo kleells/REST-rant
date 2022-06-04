@@ -6,13 +6,13 @@ function error404 () {
         <Def>
             <main>
                 <h1>404: PAGE NOT FOUND</h1>
+                    <p>You seem lost... click on Home to redirect</p>
                 <div>
-                    <img src="/images/LostError404.jpeg" alt="Pug in a blanket" />
+                    <img src="https://cdn.pixabay.com/photo/2019/04/24/14/03/map-4152197__340.jpg" alt="Picture of a map" />
                     <div>
-                        Photo by <a href="https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y">Lorem Picsum</a><a href="https://picsum.photos/images"></a>
+                        Photo by <a href="https://pixabay.com/users/gregroose-2823595/">Gregory Roose</a>
                     </div>
                 </div>
-                <p>You seem lost... 404 Page not found</p>
             </main>
         </Def>
     )
