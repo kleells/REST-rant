@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const db = require('../models');
 
-// GET /places
+// INDEX
 router.get('/', (req, res) => {
   db.Place.find()
       .then((places) => {
